@@ -1,0 +1,25 @@
+{
+  "name": "@modelcontextprotocol/fetch-mcp",
+  "version": "0.1.0",
+  "description": "Advanced Fetch MCP Tool with Enhanced URL Handling and Markdown Conversion",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "lint": "eslint src/**/*.js",
+    "precommit": "npm run lint && npm test"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "turndown": "^7.1.1",
+    "cheerio": "^1.0.0-rc.12",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
